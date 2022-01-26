@@ -11,6 +11,12 @@ function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          Coded by {" "}
+          <a href="https://github.com/LavRed/dictionary-project">
+            LaVisha R
+          </a> 
+        </footer>
       </div>
     </div>
   );
