@@ -1,6 +1,16 @@
+body {
+  background-color: rgb(252, 235, 237);
+}
+
 .App .App-header {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+}
+
+.App footer {
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-align: center;
 }
 

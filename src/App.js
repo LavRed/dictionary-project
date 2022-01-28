@@ -9,7 +9,7 @@ function App() {
           React Dictionary App
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="wine" />
         </main>
         <footer>
           Coded by {" "}
