@@ -50,8 +50,8 @@ export default function Dictionary(props) {
                 <section>
                     <h1>What word do you want to look up?</h1>
                     <form onSubmit={handleSubmit}>
-                        <input type="search" onChange={handleChange}
-                        defaultValue={props.defaultKeyword} />
+                        <input type="search" className="form-control" onChange={handleChange}
+                        defaultValue={props.defaultKeyword} aria-describedby="basic-addon1" />
                     </form>
                 </section>
                 <Results results={results} />
